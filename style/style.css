@@ -1,30 +1,31 @@
-.table__wrapper{
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
+.table__wrapper {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
-thead{
-    background-color: yellow;
-    text-align: left;
+thead {
+  background-color: yellow;
+  text-align: left;
 }
-th{
-    border-color: #000;
-    border-style: solid;
-    border-collapse: collapse;
-}
-
-.html__table{
-    table-layout: fixed;
-    border-collapse: collapse;
-    border-width: 2px;
-    border-color: #000;
-    border-style: solid;
+th {
+  border-color: #000;
+  border-style: solid;
+  border-collapse: collapse;
 }
 
-table.html__table td, table.GeneratedTable th {
-    border-width: 2px;
-    border-color: #000000;
-    border-style: solid;
-    padding: 3px;
+.html__table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #000;
+  border-style: solid;
+}
+
+table.html__table td,
+table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 3px;
 }
